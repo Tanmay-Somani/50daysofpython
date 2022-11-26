@@ -1,19 +1,18 @@
 
 def word_index(list):
+    ctr = 0
+    max = list[0]
     for i in list:
-        max = 0
-        ctr = 0
-        a = list[0]
-        if (len(i) > max):
-            max = 2
-        if (len(list[0]) == len(i)):
+        if (len(i) > len(max)):
+            max = i
+        elif (len(i) == len(max)):
             ctr += 1
-    if (ctr == 1):
-        return 0
-    return max
+        if (ctr == len(list)):
+            return 0
+    return list.index(max)
 
 
-list = ["hello", "world", "its a", "world"]
-ast = ["love", "hate"]
-print(word_index(list))
-print(word_index(ast))
+list = ["hello", "world", "its mya", "world"]
+words2 = ["Love", "Hate"]
+print("the index is", word_index(list))
+print(word_index(words2))
