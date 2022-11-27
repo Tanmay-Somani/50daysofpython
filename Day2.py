@@ -6,20 +6,21 @@ def convert_add(x):
 
 
 def check_duplicates(x):
-    for i in range(0, len(x)):
-        if (x[0] == x[i]):
-            print(x[i])
-            return x[i]
-        else:
-            print("No duplicates")
-            return "No duplicates"
+    for i in x:
+        if (i == x[1]):
+            print(i)
+        elif (x[0] != x[len(x)-1]):
+            print("No Duplicates")
 
 
-asd = []
-print("Enter the no of elements in the list: ")
-n = int(input())
-for i in range(n):
-    print("Enter the elements: ")
-    asd.append(input())
-convert_add(asd)
-check_duplicates(asd)
+fruits = ['apple', 'orange', 'banana', 'apple']
+names = ['Yoda', 'Moses', 'Joshua', 'Mark']
+# asd = []
+# print("Enter the no of elements in the list: ")
+# n = int(input())
+# for i in range(n):
+#     print("Enter the elements: ")
+#     asd.append(input())
+# convert_add(asd)
+check_duplicates(fruits)
+check_duplicates(names)
