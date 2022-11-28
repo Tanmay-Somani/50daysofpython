@@ -3,5 +3,5 @@ def string_range(x):
         print(i, end=".")
     print(x)
 
-
-string_range(input())
+x=input()
+string_range(x)
