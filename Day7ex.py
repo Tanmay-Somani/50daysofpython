@@ -1,14 +1,10 @@
 names = ["Joseph", "Nathan", "Sasha", "Kelly",
          "Muhammad", "Jabulani", "Sera", "Patel", "Sera"]
-ctr = 0
-ctrs = 0
+ctr_val = 0
 dict = {}
 for i in names:
-    if i == "Sera":
-        ctr += 1
-        dict[i] = ctr
-    if i == "Sasha":
-        ctrs += 1
-        dict[i] = ctrs
-
+    if i[0] == "S":
+        alpha = i
+        ctr_val += 1
+        dict[alpha] = ctr_val
 print(dict)
