@@ -4,4 +4,4 @@ def string_range(x):
     print(x)
 
 
-string_range(5)
+string_range(input())
