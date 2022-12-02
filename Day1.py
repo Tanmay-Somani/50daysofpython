@@ -6,12 +6,11 @@ def divide_or_square(n):
 
 
 def longest_value(x):
-    a = max(x.values())
-    return a
+    max = x.keys()
+    return max
 
 
 n = int(input())
-
 print(divide_or_square(n))
-x = {'wind': 'grey', 'fire': 'red', 'water': 'blue', 'earthen': 'brown'}
+x = {'wind': 'grey', 'earthen': 'brown'}
 print(longest_value(x))

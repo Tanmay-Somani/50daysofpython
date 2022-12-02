@@ -1,3 +1,6 @@
-list = [1000000, 2356989, 2354672, 9878098]
-listToStr = ' '.join([str(elem) for elem in list])
-print(listToStr)
+list = [100, 23989, 52354672, 9878098, 9074, 9087872]
+a = []
+for i in list:
+    list = '{:,}'.format(i)
+    a.append(list)
+print(a)

@@ -1,5 +1,5 @@
-names = ["Joseph", "Nathan", "Sasha", "Kelly",
-         "Muhammad", "Jabulani", "Sera", "Patel", "Sera", "Sera", "Sasha"]
+names = ["Joseph", "Nathan", "Sia", "Sasha", "Kelly",
+         "Muhammad", "Sabulani", "Sera", "Patel", "Sera", "Sera", "Sasha", ]
 ctr_val = 0
 dict = {}
 for i in names:

@@ -7,7 +7,7 @@ def prime_numbers():
                 break
             else:
                 if i in list:
-                    break
+                    break   
                 else:
                     list.append(i)
     return list
