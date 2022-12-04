@@ -1,11 +1,13 @@
 def Python_snakes(num):
-    n = ".."
+
     for i in range(1, num):
         j = i-1
+        a = "."*i
+        b = ".. "*j
         if (j == 0):
-            print("."*i, "."*i)
+            print(a, a)
         else:
-            print(".", ".. "*j, ".")
+            print(".", b, ".")
 
 
 Python_snakes(7)
