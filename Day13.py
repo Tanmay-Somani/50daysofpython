@@ -5,7 +5,7 @@ def your_vat():
         total = price+(price * VAT/100)
         return total
     except ValueError:
-        print("invalid entry please enter again")
+        print("Invalid entry please enter again")
         your_vat()
 
 
