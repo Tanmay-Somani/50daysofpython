@@ -1,7 +1,7 @@
 def middle_figure(a, b):
     c = a+b
     r = int(len(c)/2)
-    return c[r-1: r: 1]
+    return c[r: r+1: 1]
 
 
 a = "make love"
