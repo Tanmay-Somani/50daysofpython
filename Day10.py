@@ -4,6 +4,5 @@ def hide_password():
     print(passw)
     print("the password is ", len(passw), "characters long")
 
-
 passw = " "
 hide_password()
